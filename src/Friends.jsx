@@ -3,7 +3,7 @@ import './Friends.css'
 
 export default
 
-function Friends(){
+function Friends02(){
 
     const [friends, setFriends] = useState([])
 
@@ -11,8 +11,9 @@ function Friends(){
         fetch("https://jsonplaceholder.typicode.com/users")
         .then(res => res.json())
         .then(data => setFriends(data))
-    })
+    }, [])
 
+    
 
 
     return(

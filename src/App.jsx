@@ -6,6 +6,8 @@ import AddReduce from './add-reduce.jsx'
 import Users from './Users.jsx'
 import Users02 from './Users-02.jsx'
 import Friends from './Friends.jsx'
+import Friends02 from './Friends02.jsx'
+import Name from '../name.jsx'
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
   return (
     <>
       <h2>React Core Concept 02</h2>
+      <Name></Name>
+      <Friends02></Friends02>
       <Friends></Friends>
       <Users02/>
       <Users></Users>
