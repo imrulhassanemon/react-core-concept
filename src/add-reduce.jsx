@@ -6,7 +6,6 @@ export default function AddReduce() {
   const increase = () => {
     setCount(count + 1);
   };
-  console.log(count);
   const sty = { border: "2px solid red", padding: "20px", margin: "20px" };
   
 

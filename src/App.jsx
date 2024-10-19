@@ -3,6 +3,9 @@ import './App.css'
 import Counter from './counter'
 import Team from './team.jsx'
 import AddReduce from './add-reduce.jsx'
+import Users from './Users.jsx'
+import Users02 from './Users-02.jsx'
+import Friends from './Friends.jsx'
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
   return (
     <>
       <h2>React Core Concept 02</h2>
+      <Friends></Friends>
+      <Users02/>
+      <Users></Users>
       <AddReduce></AddReduce>
       <Counter></Counter>
       <Team></Team>
